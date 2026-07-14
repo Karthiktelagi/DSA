@@ -1,11 +1,3 @@
-"""
-LeetCode 287. Find the Duplicate Number
-Difficulty: Medium
-
-Time Complexity: O(n log n)
-Space Complexity: O(1)
-"""
-
 class Solution:
     def findDuplicate(self, nums):
         nums.sort()
